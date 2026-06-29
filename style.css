@@ -669,3 +669,138 @@ grid-template-columns:1fr;
 }
 
 }
+/* Bewertungen */
+
+#bewertungen{
+
+padding:120px 8%;
+
+background:#181818;
+
+}
+
+.reviews{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:60px;
+
+}
+
+.review{
+
+background:#242424;
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.review:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 35px rgba(212,175,55,.3);
+
+}
+
+.review h3{
+
+font-size:30px;
+
+margin-bottom:20px;
+
+}
+
+.review p{
+
+line-height:1.7;
+
+margin-bottom:20px;
+
+}
+
+/* Kontakt */
+
+#contact{
+
+padding:120px 8%;
+
+background:#111;
+
+}
+
+.kontakt{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+margin-top:60px;
+
+align-items:center;
+
+}
+
+.kontakt h3{
+
+margin-top:20px;
+
+color:#d4af37;
+
+}
+
+.kontakt p{
+
+margin-top:10px;
+
+}
+
+/* Footer */
+
+footer{
+
+background:black;
+
+padding:50px;
+
+text-align:center;
+
+}
+
+footer h2{
+
+color:#d4af37;
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+margin-top:10px;
+
+color:#aaa;
+
+}
+
+@media(max-width:900px){
+
+.kontakt{
+
+grid-template-columns:1fr;
+
+}
+
+}
